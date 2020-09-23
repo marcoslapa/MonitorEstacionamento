@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="MonitorEstacionamento.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MonitorEstacionamento"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Estacionamento Superior" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="BtnNovoVeiculoReg" Content="Novo Veiculo Regular" Click="BtnNovoVeiculoReg_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnNovoVeiculoPCD" Content="Novo Veiculo PCD" Click="BtnNovoVeiculoPCD_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnNovaMoto" Content="Nova Moto" Click="BtnNovaMoto_Click" />
+            </StackPanel>
+            <Rectangle Width="20"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="BtnSaiuVeiculoReg" Content="Saiu Veiculo Regular" Click="BtnSaiuVeiculoReg_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnSaiuVeiculoPCD" Content="Saiu Veiculo PCD" Click="BtnSaiuVeiculoPCD_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnSaiuMoto" Content="Saiu Moto" Click="BtnSaiuMoto_Click" />
+            </StackPanel>
+        </StackPanel>
+        <Rectangle Height="30"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Estacionamento Inferior" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="BtnNovoVeiculoRegInf" Content="Novo Veiculo Regular" Click="BtnNovoVeiculoRegInf_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnNovoVeiculoPCDInf" Content="Novo Veiculo PCD" Click="BtnNovoVeiculoPCDInf_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnNovaMotoInf" Content="Nova Moto" Click="BtnNovaMotoInf_Click" />
+            </StackPanel>
+            <Rectangle Width="20"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="BtnSaiuVeiculoRegInf" Content="Saiu Veiculo Regular" Click="BtnSaiuVeiculoRegInf_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnSaiuVeiculoPCDInf" Content="Saiu Veiculo PCD" Click="BtnSaiuVeiculoPCDInf_Click" />
+                <Rectangle Height="10"/>
+                <Button x:Name="BtnSaiuMotoInf" Content="Saiu Moto" Click="BtnSaiuMotoInf_Click" />
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+    
+</Page>
